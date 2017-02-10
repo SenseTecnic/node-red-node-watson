@@ -178,9 +178,9 @@ module.exports = function (RED) {
     });
   }
 
-  RED.nodes.registerType('alchemy-image-analysis', AlchemyImageAnalysisNode, {
-    credentials: {
-      apikey: {type:"password"}
-    }
-  });
+  // RED.nodes.registerType('alchemy-image-analysis', AlchemyImageAnalysisNode, {
+  //   credentials: {
+  //     apikey: {type:"password"}
+  //   }
+  // });
 };

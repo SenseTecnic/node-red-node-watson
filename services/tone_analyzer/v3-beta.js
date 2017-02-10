@@ -101,10 +101,10 @@ module.exports = function (RED) {
       }
     });
   }
-  RED.nodes.registerType('watson-tone-analyzer', Node, {
-    credentials: {
-      username: {type:'text'},
-      password: {type:'password'}
-    }
-  });
+  // RED.nodes.registerType('watson-tone-analyzer', Node, {
+  //   credentials: {
+  //     username: {type:'text'},
+  //     password: {type:'password'}
+  //   }
+  // });
 };

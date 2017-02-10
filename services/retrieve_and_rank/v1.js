@@ -455,51 +455,51 @@ module.exports = function (RED) {
     });
   }
 
-  RED.nodes.registerType('watson-retrieve-rank-credentials', serviceCredentialsConfigurationNode);
-  RED.nodes.registerType('watson-retrieve-rank-create-cluster', createClusterNode);
+  // RED.nodes.registerType('watson-retrieve-rank-credentials', serviceCredentialsConfigurationNode);
+  // RED.nodes.registerType('watson-retrieve-rank-create-cluster', createClusterNode);
 
-  RED.nodes.registerType('watson-retrieve-rank-cluster-settings', clusterSettingsNode, {
-    credentials: {
-      username: {type:'text'},
-      password: {type:'password'}
-    }
-  });
-  RED.nodes.registerType('watson-retrieve-rank-upload-solr-configuration', uploadSolrConfigurationNode, {
-    credentials: {
-      username: {type:'text'},
-      password: {type:'password'}
-    }
-  });
-  RED.nodes.registerType('watson-retrieve-rank-solr-configuration-settings', solrConfigurationSettingsNode, {
-    credentials: {
-      username: {type:'text'},
-      password: {type:'password'}
-    }
-  });
-  RED.nodes.registerType('watson-retrieve-rank-solr-collection', solrCollectionNode, {
-    credentials: {
-      username: {type:'text'},
-      password: {type:'password'}
-    }
-  });
-  RED.nodes.registerType('watson-retrieve-rank-create-ranker', createRankerNode, {
-    credentials: {
-      username: {type:'text'},
-      password: {type:'password'}
-    }
-  });
-  RED.nodes.registerType('watson-retrieve-rank-ranker-settings', rankerSettingsNode, {
-    credentials: {
-      username: {type:'text'},
-      password: {type:'password'}
-    }
-  });
-  RED.nodes.registerType('watson-retrieve-rank-search-and-rank', searchAndRankNode, {
-    credentials: {
-      username: {type:'text'},
-      password: {type:'password'}
-    }
-  });
+  // RED.nodes.registerType('watson-retrieve-rank-cluster-settings', clusterSettingsNode, {
+  //   credentials: {
+  //     username: {type:'text'},
+  //     password: {type:'password'}
+  //   }
+  // });
+  // RED.nodes.registerType('watson-retrieve-rank-upload-solr-configuration', uploadSolrConfigurationNode, {
+  //   credentials: {
+  //     username: {type:'text'},
+  //     password: {type:'password'}
+  //   }
+  // });
+  // RED.nodes.registerType('watson-retrieve-rank-solr-configuration-settings', solrConfigurationSettingsNode, {
+  //   credentials: {
+  //     username: {type:'text'},
+  //     password: {type:'password'}
+  //   }
+  // });
+  // RED.nodes.registerType('watson-retrieve-rank-solr-collection', solrCollectionNode, {
+  //   credentials: {
+  //     username: {type:'text'},
+  //     password: {type:'password'}
+  //   }
+  // });
+  // RED.nodes.registerType('watson-retrieve-rank-create-ranker', createRankerNode, {
+  //   credentials: {
+  //     username: {type:'text'},
+  //     password: {type:'password'}
+  //   }
+  // });
+  // RED.nodes.registerType('watson-retrieve-rank-ranker-settings', rankerSettingsNode, {
+  //   credentials: {
+  //     username: {type:'text'},
+  //     password: {type:'password'}
+  //   }
+  // });
+  // RED.nodes.registerType('watson-retrieve-rank-search-and-rank', searchAndRankNode, {
+  //   credentials: {
+  //     username: {type:'text'},
+  //     password: {type:'password'}
+  //   }
+  // });
 
   function setupRankRetrieveNode(msg,config,node,callback) {
     //Check for payload

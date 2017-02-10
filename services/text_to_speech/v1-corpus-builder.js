@@ -371,11 +371,11 @@ module.exports = function (RED) {
     });
   }
 
-  RED.nodes.registerType('watson-text-to-speech-v1-query-builder', Node, {
-    credentials: {
-      username: {type:'text'},
-      password: {type:'password'}
-    }
-  });
+  // RED.nodes.registerType('watson-text-to-speech-v1-query-builder', Node, {
+  //   credentials: {
+  //     username: {type:'text'},
+  //     password: {type:'password'}
+  //   }
+  // });
 
 };

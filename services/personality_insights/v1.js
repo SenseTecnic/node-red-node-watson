@@ -85,10 +85,10 @@ module.exports = function (RED) {
       });
     });
   }
-  RED.nodes.registerType("watson-personality-insights",Node,{
-     credentials: {
-      username: {type:"text"},
-      password: {type:"password"}
-    }
-  });
+  // RED.nodes.registerType("watson-personality-insights",Node,{
+  //    credentials: {
+  //     username: {type:"text"},
+  //     password: {type:"password"}
+  //   }
+  // });
 };

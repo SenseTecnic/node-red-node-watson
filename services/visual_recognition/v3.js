@@ -367,16 +367,16 @@ module.exports = function (RED) {
     });
   }
 
-  RED.nodes.registerType('visual-recognition-v3', WatsonVisualRecognitionV3Node, {
-    credentials: {
-      apikey: {type:'password'}
-    }
-  });
+  // RED.nodes.registerType('visual-recognition-v3', WatsonVisualRecognitionV3Node, {
+  //   credentials: {
+  //     apikey: {type:'password'}
+  //   }
+  // });
 
-  RED.nodes.registerType('visual-recognition-util-v3', WatsonVisualRecognitionV3Node, {
-    credentials: {
-      apikey: {type:'password'}
-    }
-  });
+  // RED.nodes.registerType('visual-recognition-util-v3', WatsonVisualRecognitionV3Node, {
+  //   credentials: {
+  //     apikey: {type:'password'}
+  //   }
+  // });
 
 };

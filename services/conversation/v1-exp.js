@@ -135,12 +135,12 @@ module.exports = function (RED) {
     });
   }
 
-  RED.nodes.registerType('watson-conversation-v1-experimental', WatsonConversationV1ExpNode, {
-    credentials: {
-      username: {type:'text'},
-      password: {type:'password'}
-    }
-  });
+  // RED.nodes.registerType('watson-conversation-v1-experimental', WatsonConversationV1ExpNode, {
+  //   credentials: {
+  //     username: {type:'text'},
+  //     password: {type:'password'}
+  //   }
+  // });
 
 
 };

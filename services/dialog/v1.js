@@ -331,12 +331,12 @@ module.exports = function (RED) {
 
   
   //Register the node as service-dialog to nodeRED 
-  RED.nodes.registerType('service-dialog', 
-                         WatsonDialogNode, 
-                         {credentials: { username: {type:'text'},
-                                         password: {type:'password'}
-                                       }
-                         });
+  // RED.nodes.registerType('service-dialog', 
+  //                        WatsonDialogNode, 
+  //                        {credentials: { username: {type:'text'},
+  //                                        password: {type:'password'}
+  //                                      }
+  //                        });
 							
 };
 

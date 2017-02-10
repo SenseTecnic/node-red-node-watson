@@ -204,16 +204,16 @@ module.exports = function (RED) {
     });
   }
 
-  RED.nodes.registerType('similarity-search-v3', SimilaritySearchV3Node, {
-    credentials: {
-      apikey: {type:'password'}
-    }
-  });
+  // RED.nodes.registerType('similarity-search-v3', SimilaritySearchV3Node, {
+  //   credentials: {
+  //     apikey: {type:'password'}
+  //   }
+  // });
 
-  RED.nodes.registerType('similarity-search-util-v3', SimilaritySearchV3Node, {
-    credentials: {
-      apikey: {type:'password'}
-    }
-  });
+  // RED.nodes.registerType('similarity-search-util-v3', SimilaritySearchV3Node, {
+  //   credentials: {
+  //     apikey: {type:'password'}
+  //   }
+  // });
 
 };

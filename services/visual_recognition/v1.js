@@ -128,12 +128,12 @@ module.exports = function(RED) {
 			});
 	}
 	
-	RED.nodes.registerType("watson-visual-recognition",Node, {
-		credentials: {
-			username: {type:"text"},
-			password: {type:"password"}
-		}
-	});
+	// RED.nodes.registerType("watson-visual-recognition",Node, {
+	// 	credentials: {
+	// 		username: {type:"text"},
+	// 		password: {type:"password"}
+	// 	}
+	// });
 
 	var appenv = cfenv.getAppEnv();
 	var visual = [];
@@ -272,7 +272,7 @@ module.exports = function(RED) {
 		
 	}
 
-	RED.nodes.registerType("watson-visual-util",VisualUtilNode);
+	// RED.nodes.registerType("watson-visual-util",VisualUtilNode);
 
 	function VisualTrainingNode(config) {
 
@@ -364,5 +364,5 @@ module.exports = function(RED) {
 				
 	}
 
-	RED.nodes.registerType("watson-visual-training",VisualTrainingNode);
+	// RED.nodes.registerType("watson-visual-training",VisualTrainingNode);
 };

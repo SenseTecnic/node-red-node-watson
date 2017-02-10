@@ -145,5 +145,5 @@ module.exports = function(RED) {
       }
     });
   }
-  RED.nodes.registerType('convert', ConvertNode);
+  // RED.nodes.registerType('convert', ConvertNode);
 };
