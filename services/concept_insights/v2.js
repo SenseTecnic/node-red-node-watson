@@ -37,7 +37,7 @@ module.exports = function (RED) {
     this.publiccorpus = config.publiccorpus;
   }
 
-  RED.nodes.registerType("watson-concept-insights-corpus", CorpusConfigurationNode);
+  // RED.nodes.registerType("watson-concept-insights-corpus", CorpusConfigurationNode);
 
   function searchNode(config) {
     RED.nodes.createNode(this, config);
@@ -158,12 +158,12 @@ module.exports = function (RED) {
     });
   }
 
-  RED.nodes.registerType('watson-concept-insights-search', searchNode, {
-    credentials: {
-      username: {type:"text"},
-      password: {type:"password"}
-    }
-  });
+  // RED.nodes.registerType('watson-concept-insights-search', searchNode, {
+  //   credentials: {
+  //     username: {type:"text"},
+  //     password: {type:"password"}
+  //   }
+  // });
 
   function searchConceptsNode(config) {
     RED.nodes.createNode(this, config);
@@ -206,12 +206,12 @@ module.exports = function (RED) {
     });
   }
 
-  RED.nodes.registerType('watson-concept-insights-search-concepts', searchConceptsNode, {
-    credentials: {
-      username: {type:"text"},
-      password: {type:"password"}
-    }
-  });
+  // RED.nodes.registerType('watson-concept-insights-search-concepts', searchConceptsNode, {
+  //   credentials: {
+  //     username: {type:"text"},
+  //     password: {type:"password"}
+  //   }
+  // });
 
   function relatedConceptsNode(config) {
     RED.nodes.createNode(this, config);
@@ -239,12 +239,12 @@ module.exports = function (RED) {
     }); 
   }
 
-  RED.nodes.registerType('watson-concept-insights-related-concepts', relatedConceptsNode, {
-    credentials: {
-      username: {type:"text"},
-      password: {type:"password"}
-    }
-  });
+  // RED.nodes.registerType('watson-concept-insights-related-concepts', relatedConceptsNode, {
+  //   credentials: {
+  //     username: {type:"text"},
+  //     password: {type:"password"}
+  //   }
+  // });
 
 
   function uploadDocumentNode (config) {
@@ -363,12 +363,12 @@ module.exports = function (RED) {
     });
   }
 
-  RED.nodes.registerType('watson-concept-insights-upload-document', uploadDocumentNode, {
-    credentials: {
-      username: {type:"text"},
-      password: {type:"password"}
-    }
-  });
+  // RED.nodes.registerType('watson-concept-insights-upload-document', uploadDocumentNode, {
+  //   credentials: {
+  //     username: {type:"text"},
+  //     password: {type:"password"}
+  //   }
+  // });
 
   function setupConceptInsightsNode(msg,config,node,callback) {
   
