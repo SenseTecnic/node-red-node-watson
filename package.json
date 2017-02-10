@@ -33,38 +33,22 @@
   "node-red": {
     "nodes": {
       "watson-conversation-v1":"services/conversation/v1.js",
-      
       "watson-discovery-v1":"services/discovery/v1.js",
       "watson-discovery-v1-query-builder":"services/discovery/v1-query-builder.js",
-      
-      
       "watson-concept-insights-v2": "services/concept_insights/v2.js",
       "alchemy-date-extraction": "services/alchemy_date_extraction/v1.js",
-      
       "alchemy_language-v1": "services/alchemy_language/v1.js",
-      
       "watson-language-translator-identify-v2": "services/language_translator_identify/v2.js",
       "watson-language-translator-util-v2": "services/language_translator_util/v2.js",
       "watson-language-identification-v1": "/services/language_identification/v1.js",
-      
       "watson-language-translate-util-v1": "services/language_translation_util/v2.js",
       "watson-natural-language-classifier-v1": "services/natural_language_classifier/v1.js",
       "alchemy-news-v1": "services/alchemy_data_news/v1.js",
-      
       "watson-personality-insights-v3": "services/personality_insights/v3.js",
       "watson-relationship-extraction-v1": "services/relationship_extraction/v1.js",
-      
-      
-      
       "watson-text-to-speech-v1": "services/text_to_speech/v1.js",
-      
       "watson-tone-analyzer-v3": "services/tone_analyzer/v3.js",
-      "watson-tradeoff-analytics-v1": "services/tradeoff_analytics/v1.js",
-      
-      
-      
-      
-      
+      "watson-tradeoff-analytics-v1": "services/tradeoff_analytics/v1.js"
     }
   }
 }
