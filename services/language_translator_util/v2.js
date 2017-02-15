@@ -203,10 +203,10 @@ module.exports = function (RED) {
     });
   }
 
-  RED.nodes.registerType('watson-translator-util', SMTNode, {
-    credentials: {
-      username: {type:'text'},
-      password: {type:'password'}
-    }
-  });
+  // RED.nodes.registerType('watson-translator-util', SMTNode, {
+  //   credentials: {
+  //     username: {type:'text'},
+  //     password: {type:'password'}
+  //   }
+  // });
 };
