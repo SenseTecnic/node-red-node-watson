@@ -41,7 +41,6 @@
       "watson-natural-language-classifier-v1": "services/natural_language_classifier/v1.js",
       "alchemy-news-v1": "services/alchemy_data_news/v1.js",
       "watson-personality-insights-v3": "services/personality_insights/v3.js",
-      "watson-text-to-speech-v1": "services/text_to_speech/v1.js",
       "watson-tone-analyzer-v3": "services/tone_analyzer/v3.js",
       "watson-tradeoff-analytics-v1": "services/tradeoff_analytics/v1.js"
     }
