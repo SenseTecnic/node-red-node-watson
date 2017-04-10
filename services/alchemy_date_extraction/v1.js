@@ -94,9 +94,9 @@ module.exports = function (RED) {
 
 
   //Register the node as alchemy-feature-extract to nodeRED
-  RED.nodes.registerType('alchemy-date-extraction', AlchemyDateExtractionNode, {
-    credentials: {
-      apikey: {type:"password"}
-    }
-  });
+  // RED.nodes.registerType('alchemy-date-extraction', AlchemyDateExtractionNode, {
+  //   credentials: {
+  //     apikey: {type:"password"}
+  //   }
+  // });
 };

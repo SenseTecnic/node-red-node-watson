@@ -155,9 +155,9 @@ module.exports = function (RED) {
 
 
   //Register the node as alchemy-feature-extract to nodeRED
-  RED.nodes.registerType('alchemy-feature-extract', AlchemyFeatureExtractNode, {
-    credentials: {
-      apikey: {type:"password"}
-    }
-  });
+  // RED.nodes.registerType('alchemy-feature-extract', AlchemyFeatureExtractNode, {
+  //   credentials: {
+  //     apikey: {type:"password"}
+  //   }
+  // });
 };

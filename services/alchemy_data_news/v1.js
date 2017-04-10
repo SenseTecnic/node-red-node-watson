@@ -115,7 +115,7 @@ module.exports = function(RED) {
 		});
 	}
 
-	RED.nodes.registerType("news",NewsNode);
+	// RED.nodes.registerType("news",NewsNode);
 
 }
 
